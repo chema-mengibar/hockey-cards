@@ -1,0 +1,9 @@
+:root {
+    --color-neutral: 0, 29, 166;
+    --color-neutral-rgb: rgb(0, 29, 166);
+}
+
+[data-theme="dark"] {
+    --color-neutral: 255, 255, 166;
+    --color-neutral-rgb: rgb(255, 255, 166);
+}

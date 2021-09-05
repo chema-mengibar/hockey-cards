@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "outDir": "./public/",
+      "sourceMap": false,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "strict": false,
+      "allowJs": true,
+      "alwaysStrict":false,
+      "esModuleInterop": true,
+      "baseUrl": ".",
+      "paths": {
+        "~/*": ["./src/*"]
+      },
+  },
+  "include": [ "./src/**/*.ts" ],
+  "exclude": [
+    "./node_modules",
+  ]
+}

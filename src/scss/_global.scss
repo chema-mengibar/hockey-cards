@@ -1,0 +1,15 @@
+html, body, #root, #root>div {
+  height: 100%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+
+body{
+ // background-color: rgba(var(--color-neutral),1);
+ // background-color: #{'rgb(var(--color-neutral))'};
+ background-color: var(--color-neutral-rgb);
+
+}
